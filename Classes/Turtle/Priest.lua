@@ -33,7 +33,7 @@ ClassSpellsByLevel["PRIEST"] = {
 		{id=2652,name="Touch of Weakness",subText="Rank 1",level=10,icon="Interface\\Icons\\Spell_Shadow_DeadofNight",races={"UNDEAD"},school="Shadow Magic"},
 		{id=2943,name="Touch of Weakness",subText="Rank 1",level=10,icon="Interface\\Icons\\Spell_Shadow_DeadofNight",races={"UNDEAD"},school="Shadow Magic",requiredIds={2652}},
 		{id=9035,name="Hex of Weakness",subText="Rank 1",level=10,icon="Interface\\Icons\\Spell_Shadow_FingerOfDeath",races={"TROLL"},school="Shadow Magic"},
-		{id=46042,name="Grace of the Sunwell",subText="",level=10,icon="Interface\\Icons\\Spell_Holy_MindVision",school="Holy"}
+		{id=46042,name="Grace of the Sunwell",subText="",level=10,icon="Interface\\Icons\\Spell_Holy_MindVision",races={"HIGHELF"},school="Holy"}
 	},
 	[12] = {
 		{id=588,name="Inner Fire",subText="Rank 1",level=12,icon="Interface\\Icons\\Spell_Holy_InnerFire",school="Discipline"},
@@ -75,7 +75,7 @@ ClassSpellsByLevel["PRIEST"] = {
 		{id=19281,name="Hex of Weakness",subText="Rank 2",level=20,icon="Interface\\Icons\\Spell_Shadow_FingerOfDeath",races={"TROLL"},school="Shadow Magic",requiredIds={9035}},
 		{id=28377,name="Shadowguard",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Nature_LightningShield",races={"TROLL"},school="Shadow Magic",requiredIds={18137}},
 		{id=52638,name="Searing Shot",subText="Rank 1",level=20,icon="Interface\\Icons\\Ability_SearingArrow",races={"NIGHTELF"},school="Discipline"},
-		{id=46043,name="Sun's Embrace",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Holy_HolyProtection",school="Holy"}
+		{id=46043,name="Sun's Embrace",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Holy_HolyProtection",races={"HIGHELF"},school="Holy"}
 	},
 	[22] = {
 		{id=2055,name="Heal",subText="Rank 2",level=22,icon="Interface\\Icons\\Spell_Holy_Heal",school="Holy",requiredIds={2054}},
@@ -141,7 +141,7 @@ ClassSpellsByLevel["PRIEST"] = {
 		{id=19302,name="Starshards",subText="Rank 4",level=34,icon="Interface\\Icons\\Spell_Arcane_StarFire",races={"NIGHTELF"},school="Discipline",requiredIds={19299}}
 	},
 	[35] = {
-		{id=46044,name="Sun's Embrace",subText="Rank 2",level=35,icon="Interface\\Icons\\Spell_Holy_HolyProtection",school="Holy",requiredIds={46043}}
+		{id=46044,name="Sun's Embrace",subText="Rank 2",level=35,icon="Interface\\Icons\\Spell_Holy_HolyProtection",races={"HIGHELF"},school="Holy",requiredIds={46043}}
 	},
 	[36] = {
 		{id=8192,name="Mind Soothe",subText="Rank 2",level=36,icon="Interface\\Icons\\Spell_Holy_MindSooth",school="Shadow Magic",requiredIds={453}},
@@ -228,7 +228,7 @@ ClassSpellsByLevel["PRIEST"] = {
 		{id=27871,name="Lightwell",subText="Rank 3",level=50,icon="Interface\\Icons\\Spell_Holy_SummonLightwell",school="Holy",requiredIds={27870}},
 		{id=45565,name="Empower Champion",subText="Rank 1",level=50,icon="Interface\\Icons\\Spell_Holy_EmpowerChampion",school="Holy"},
 		{id=57704,name="Pain Spike",subText="Rank 3",level=50,icon="Interface\\Icons\\Spell_Shadow_PainSpike",school="Shadow Magic",requiredIds={57701}},
-		{id=46045,name="Sun's Embrace",subText="Rank 3",level=50,icon="Interface\\Icons\\Spell_Holy_HolyProtection",school="Holy",requiredIds={46044}}
+		{id=46045,name="Sun's Embrace",subText="Rank 3",level=50,icon="Interface\\Icons\\Spell_Holy_HolyProtection",races={"HIGHELF"},school="Holy",requiredIds={46044}}
 	},
 	[52] = {
 		{id=10964,name="Greater Heal",subText="Rank 3",level=52,icon="Interface\\Icons\\Spell_Holy_GreaterHeal",school="Holy",requiredIds={10963}},
@@ -288,7 +288,7 @@ ClassSpellsByLevel["PRIEST"] = {
 		{id=28382,name="Shadowguard",subText="Rank 6",level=60,icon="Interface\\Icons\\Spell_Nature_LightningShield",races={"TROLL"},school="Shadow Magic",requiredIds={19312}},
 		{id=52646,name="Searing Shot",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_SearingArrow",races={"NIGHTELF"},school="Discipline",requiredIds={52644}},
 		{id=57707,name="Pain Spike",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Shadow_PainSpike",school="Shadow Magic",requiredIds={57704}},
-		{id=46046,name="Sun's Embrace",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Holy_HolyProtection",school="Holy",requiredIds={46045}},
+		{id=46046,name="Sun's Embrace",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Holy_HolyProtection",races={"HIGHELF"},school="Holy",requiredIds={46045}},
 		{id=45968,name="Smite",subText="Rank 9",level=60,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Holy",requiredIds={10934}},
 		{id=51458,name="Lightwell",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Holy_SummonLightwell",school="Holy",requiredIds={27871}}
 	}
