@@ -11,7 +11,7 @@ ClassSpellsByLevel["WARLOCK"] = {
 		{id=172,name="Corruption",subText="Rank 1",level=4,icon="Interface\\Icons\\Spell_Shadow_AbominationExplosion",school="Affliction"}
 	},
 	[6] = {
-		{id=695,name="Shadow Bolt",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={25307}},
+		{id=695,name="Shadow Bolt",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={686}},
 		{id=1454,name="Life Tap",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Shadow_BurningSpirit",school="Affliction"}
 	},
 	[8] = {
@@ -39,6 +39,7 @@ ClassSpellsByLevel["WARLOCK"] = {
 		{id=1455,name="Life Tap",subText="Rank 2",level=16,icon="Interface\\Icons\\Spell_Shadow_BurningSpirit",school="Affliction",requiredIds={1454}}
 	},
 	[18] = {
+		{id=1014,name="Curse of Agony",subText="Rank 2",level=18,icon="Interface\\Icons\\Spell_Shadow_CurseOfSargeras",school="Affliction",requiredIds={980}},
 		{id=693,name="Create Soulstone (Minor)",subText="",level=18,icon="Interface\\Icons\\Spell_Shadow_SoulGem",school="Demonology"},
 		{id=5676,name="Searing Pain",subText="Rank 1",level=18,icon="Interface\\Icons\\Spell_Fire_SoulBurn",school="Destruction"}
 	},
@@ -72,7 +73,7 @@ ClassSpellsByLevel["WARLOCK"] = {
 		{id=17919,name="Searing Pain",subText="Rank 2",level=26,icon="Interface\\Icons\\Spell_Fire_SoulBurn",school="Destruction",requiredIds={5676}}
 	},
 	[28] = {
-		{id=6217,name="Curse of Agony",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Shadow_CurseOfSargeras",school="Affliction",requiredIds={980}},
+		{id=6217,name="Curse of Agony",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Shadow_CurseOfSargeras",school="Affliction",requiredIds={1014}},
 		{id=7658,name="Curse of Recklessness",subText="Rank 2",level=28,icon="Interface\\Icons\\Spell_Shadow_UnholyStrength",school="Affliction",requiredIds={704}},
 		{id=3699,name="Health Funnel",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Shadow_LifeDrain",school="Demonology",requiredIds={3698}},
 		{id=1106,name="Shadow Bolt",subText="Rank 5",level=28,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={1088}},
@@ -126,7 +127,7 @@ ClassSpellsByLevel["WARLOCK"] = {
 		{id=18220,name="Dark Pact",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shadow_DarkRitual",school="Affliction"},
 		{id=20755,name="Create Soulstone",subText="",level=40,icon="Interface\\Icons\\Spell_Shadow_SoulGem",school="Demonology"},
 		{id=1941,name="Mana Funnel",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shadow_UnsummonBuilding",school="Demonology"},
-		{id=45910,name="Mana Funnel",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shadow_UnsummonBuilding",school="Demonology",requiredIds={1941}}
+		{id=45910,name="Mana Funnel",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shadow_UnsummonBuilding",school="Demonology"}
 	},
 	[42] = {
 		{id=7659,name="Curse of Recklessness",subText="Rank 3",level=42,icon="Interface\\Icons\\Spell_Shadow_UnholyStrength",school="Affliction",requiredIds={7658}},
@@ -215,7 +216,7 @@ ClassSpellsByLevel["WARLOCK"] = {
 		{id=18938,name="Dark Pact",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Shadow_DarkRitual",school="Affliction",requiredIds={18937}},
 		{id=20757,name="Create Soulstone (Major)",subText="",level=60,icon="Interface\\Icons\\Spell_Shadow_SoulGem",school="Demonology"},
 		{id=23161,name="Summon Dreadsteed",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Dreadsteed",school="Demonology"},
-		{id=25307,name="Shadow Bolt",subText="Rank 10",level=60,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={686}},
+		{id=25307,name="Shadow Bolt",subText="Rank 10",level=60,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={11661}},
 		{id=25309,name="Immolate",subText="Rank 8",level=60,icon="Interface\\Icons\\Spell_Fire_Immolation",school="Destruction",requiredIds={11668}},
 		{id=25311,name="Corruption",subText="Rank 7",level=60,icon="Interface\\Icons\\Spell_Shadow_AbominationExplosion",school="Affliction",requiredIds={11672}},
 		{id=28610,name="Shadow Ward",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Shadow_AntiShadow",school="Demonology",requiredIds={11740}},

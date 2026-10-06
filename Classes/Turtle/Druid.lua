@@ -75,7 +75,7 @@ ClassSpellsByLevel["DRUID"] = {
 		{id=22570,name="Mangle",subText="Rank 1",level=6,icon="Interface\\Icons\\Ability_Druid_Mangle.tga",school="Feral Combat"}
 	},
 	[8] = {
-		{id=5186,name="Healing Touch",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_HealingTouch",school="Restoration",requiredIds={25297}},
+		{id=5186,name="Healing Touch",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_HealingTouch",school="Restoration",requiredIds={5185}},
 		{id=339,name="Entangling Roots",subText="Rank 1",level=8,icon="Interface\\Icons\\Spell_Nature_StrangleVines",school="Balance"}
 	},
 	[10] = {
@@ -85,8 +85,8 @@ ClassSpellsByLevel["DRUID"] = {
 		{id=1178,name="Bear Form (Passive)",subText="Passive",level=10,icon="Interface\\Icons\\Ability_Racial_BearForm",school="Feral Combat"},
 		{id=6795,name="Growl",subText="",level=10,icon="Interface\\Icons\\Ability_Physical_Taunt",school="Feral Combat"},
 		{id=5232,name="Mark of the Wild",subText="Rank 2",level=10,icon="Interface\\Icons\\Spell_Nature_Regeneration",school="Restoration",requiredIds={1126}},
-		{id=1058,name="Rejuvenation",subText="Rank 2",level=10,icon="Interface\\Icons\\Spell_Nature_Rejuvenation",school="Restoration",requiredIds={25299}},
-		{id=8924,name="Moonfire",subText="Rank 2",level=10,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Balance",requiredIds={9835}},
+		{id=1058,name="Rejuvenation",subText="Rank 2",level=10,icon="Interface\\Icons\\Spell_Nature_Rejuvenation",school="Restoration",requiredIds={774}},
+		{id=8924,name="Moonfire",subText="Rank 2",level=10,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Balance",requiredIds={8921}},
 		{id=18960,name="Teleport: Moonglade",subText="",level=10,icon="Interface\\Icons\\Spell_Arcane_TeleportMoonglade",school="Balance"}
 	},
 	[12] = {
@@ -296,7 +296,7 @@ ClassSpellsByLevel["DRUID"] = {
 	[56] = {
 		{id=9827,name="Pounce",subText="Rank 3",level=56,icon="Interface\\Icons\\Ability_Druid_SupriseAttack",school="Feral Combat",requiredIds={9823}},
 		{id=9826,name="Pounce Bleed",subText="Rank 3",level=56,icon="Interface\\Icons\\Ability_Druid_SupriseAttack",school="Feral Combat",requiredIds={9824}},
-		{id=9889,name="Healing Touch",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_HealingTouch",school="Restoration",requiredIds={5185}},
+		{id=9889,name="Healing Touch",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_HealingTouch",school="Restoration",requiredIds={9888}},
 		{id=22829,name="Ferocious Bite",subText="Rank 5",level=56,icon="Interface\\Icons\\Ability_Druid_FerociousBite",school="Feral Combat",requiredIds={22828}},
 		{id=22896,name="Frenzied Regeneration",subText="Rank 3",level=56,icon="Interface\\Icons\\Ability_BullRush",school="Feral Combat",requiredIds={22895}}
 	},
@@ -304,9 +304,9 @@ ClassSpellsByLevel["DRUID"] = {
 		{id=9850,name="Claw",subText="Rank 5",level=58,icon="Interface\\Icons\\Ability_Druid_Rake",school="Feral Combat",requiredIds={9849}},
 		{id=9867,name="Ravage",subText="Rank 4",level=58,icon="Interface\\Icons\\Ability_Druid_Ravage",school="Feral Combat",requiredIds={9866}},
 		{id=9881,name="Maul",subText="Rank 7",level=58,icon="Interface\\Icons\\Ability_Druid_Maul",school="Feral Combat",requiredIds={9880}},
-		{id=9841,name="Rejuvenation",subText="Rank 10",level=58,icon="Interface\\Icons\\Spell_Nature_Rejuvenation",school="Restoration",requiredIds={774}},
+		{id=9841,name="Rejuvenation",subText="Rank 10",level=58,icon="Interface\\Icons\\Spell_Nature_Rejuvenation",school="Restoration",requiredIds={9840}},
 		{id=9876,name="Starfire",subText="Rank 6",level=58,icon="Interface\\Icons\\Spell_Arcane_StarFire",school="Balance",requiredIds={9875}},
-		{id=9835,name="Moonfire",subText="Rank 10",level=58,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Balance",requiredIds={8921}},
+		{id=9835,name="Moonfire",subText="Rank 10",level=58,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Balance",requiredIds={9834}},
 		{id=9853,name="Entangling Roots",subText="Rank 6",level=58,icon="Interface\\Icons\\Spell_Nature_StrangleVines",school="Balance",requiredIds={9852}},
 		{id=18658,name="Hibernate",subText="Rank 3",level=58,icon="Interface\\Icons\\Spell_Nature_Sleep",school="Balance",requiredIds={18657}},
 		{id=45736,name="Savage Bite",subText="",level=58,icon="Interface\\Icons\\Ability_Racial_Cannibalize",school="Feral Combat"}

@@ -1,6 +1,5 @@
 setfenv(1, WhatsTraining)
 OverridenSpells["HUNTER"] = {
-	[1528] = {1513},
 }
 ClassSpellsByLevel["HUNTER"] = {
 	[1] = {
@@ -9,6 +8,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=1494,name="Track Beasts",subText="",level=1,icon="Interface\\Icons\\Ability_Tracking",school="Survival"}
 	},
 	[4] = {
+		{id=3035,name="Steady Shot",subText="Rank 1",level=4,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship"},
 		{id=13163,name="Aspect of the Monkey",subText="",level=4,icon="Interface\\Icons\\Ability_Hunter_AspectOfTheMonkey",school="Beast Mastery"},
 		{id=1978,name="Serpent Sting",subText="Rank 1",level=4,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship"},
 		{id=45652,name="Aspect of the Snake",subText="",level=4,icon="Interface\\Icons\\ability_hunter_aspectoftheviper",school="Beast Mastery"},
@@ -41,6 +41,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=20736,name="Distracting Shot",subText="Rank 1",level=12,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship"}
 	},
 	[14] = {
+		{id=3036,name="Steady Shot",subText="Rank 2",level=14,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3035}},
 		{id=1513,name="Scare Beast",subText="Rank 1",level=14,icon="Interface\\Icons\\Ability_Druid_Cower",school="Beast Mastery"},
 		{id=6197,name="Eagle Eye",subText="",level=14,icon="Interface\\Icons\\Ability_Hunter_EagleEye",school="Beast Mastery"},
 		{id=1002,name="Eyes of the Beast",subText="",level=14,icon="Interface\\Icons\\Ability_EyeOfTheOwl",school="Beast Mastery"}
@@ -68,6 +69,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=45649,name="Aspect of the Turtle",subText="",level=20,icon="Interface\\Icons\\Ability_Hunter_Pet_Turtle",school="Beast Mastery"}
 	},
 	[22] = {
+		{id=3037,name="Steady Shot",subText="Rank 3",level=22,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3036}},
 		{id=3043,name="Scorpid Sting",subText="",level=22,icon="Interface\\Icons\\Ability_Hunter_CriticalShot",school="Marksmanship"},
 		{id=14323,name="Hunter's Mark",subText="Rank 2",level=22,icon="Interface\\Icons\\Ability_Hunter_SniperShot",school="Marksmanship",requiredIds={1130}}
 	},
@@ -91,6 +93,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=51497,name="Aspect of the Wolf",subText="Rank 3",level=28,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={51496}}
 	},
 	[30] = {
+		{id=3038,name="Steady Shot",subText="Rank 4",level=30,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3037}},
 		{id=13161,name="Aspect of the Beast",subText="",level=30,icon="Interface\\Icons\\Ability_Mount_PinkTiger",school="Beast Mastery"},
 		{id=5384,name="Feign Death",subText="",level=30,icon="Interface\\Icons\\Ability_Rogue_FeignDeath",school="Survival"},
 		{id=14326,name="Scare Beast",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Druid_Cower",school="Beast Mastery",requiredIds={1513}},
@@ -118,9 +121,10 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=14299,name="Immolation Trap Effect",subText="Rank 3",level=36,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Survival",requiredIds={14298}}
 	},
 	[38] = {
+		{id=3668,name="Steady Shot",subText="Rank 5",level=38,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3038}},
 		{id=14320,name="Aspect of the Hawk",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={14319}},
 		{id=14267,name="Wing Clip",subText="Rank 2",level=38,icon="Interface\\Icons\\Ability_Rogue_Trip",school="Survival",requiredIds={2974}},
-		{id=45970,name="Steady Shot",subText="Rank 6",level=38,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship"},
+		{id=45970,name="Steady Shot",subText="Rank 6",level=38,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3668}},
 		{id=45972,name="Steady Shot",subText="Rank 7",level=38,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={45970}},
 		{id=51498,name="Aspect of the Wolf",subText="Rank 4",level=38,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={51497}}
 	},
@@ -133,7 +137,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=15630,name="Distracting Shot",subText="Rank 4",level=40,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={15629}},
 		{id=19386,name="Wyvern Sting",subText="Rank 1",level=40,icon="Interface\\Icons\\INV_Spear_02",school="Survival"},
 		{id=19882,name="Track Giants",subText="",level=40,icon="Interface\\Icons\\Ability_Racial_Avatar",school="Survival"},
-		{id=24131,name="Wyvern Sting",subText="Rank 1",level=40,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={19386}}
+		{id=24131,name="Wyvern Sting",subText="Rank 1",level=40,icon="Interface\\Icons\\INV_Spear_02",school="Survival"}
 	},
 	[42] = {
 		{id=13553,name="Serpent Sting",subText="Rank 6",level=42,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13552}},
@@ -167,7 +171,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=15631,name="Distracting Shot",subText="Rank 5",level=50,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={15630}},
 		{id=19879,name="Track Dragonkin",subText="",level=50,icon="Interface\\Icons\\INV_Misc_Head_Dragon_01",school="Survival"},
 		{id=24132,name="Wyvern Sting",subText="Rank 2",level=50,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={24131}},
-		{id=24134,name="Wyvern Sting",subText="Rank 2",level=50,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={24132}}
+		{id=24134,name="Wyvern Sting",subText="Rank 2",level=50,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={19386}}
 	},
 	[52] = {
 		{id=13543,name="Mend Pet",subText="Rank 6",level=52,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={13542}},
@@ -204,7 +208,7 @@ ClassSpellsByLevel["HUNTER"] = {
 		{id=15632,name="Distracting Shot",subText="Rank 6",level=60,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={15631}},
 		{id=19801,name="Tranquilizing Shot",subText="",level=60,icon="Interface\\Icons\\Spell_Nature_Drowsy",school="Beast Mastery"},
 		{id=24133,name="Wyvern Sting",subText="Rank 3",level=60,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={24134}},
-		{id=24135,name="Wyvern Sting",subText="Rank 3",level=60,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={24133}},
+		{id=24135,name="Wyvern Sting",subText="Rank 3",level=60,icon="Interface\\Icons\\INV_Spear_02",school="Survival",requiredIds={24132}},
 		{id=25296,name="Aspect of the Hawk",subText="Rank 7",level=60,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={14322}},
 		{id=25294,name="Multi-Shot",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={14290}},
 		{id=25295,name="Serpent Sting",subText="Rank 9",level=60,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13555}},

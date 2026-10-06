@@ -18,8 +18,6 @@ OverridenSpells["PALADIN"] = {
 	[19898] = {19888,19897},
 	[19899] = {19891},
 	[19900] = {19891,19899},
-	[19998] = {7294,10298,10299,10300,10301},
-	[21084] = {20154}
 }
 ClassSpellsByLevel["PALADIN"] = {
 	[1] = {
@@ -34,6 +32,7 @@ ClassSpellsByLevel["PALADIN"] = {
 		{id=679,name="Holy Strike",subText="Rank 1",level=4,icon="Interface\\Icons\\INV_Sword_01",school="Holy"}
 	},
 	[6] = {
+		{id=21183,name="Judgement of the Crusader",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Retribution"},
 		{id=639,name="Holy Light",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Holy_HolyBolt",school="Holy",requiredIds={635}},
 		{id=498,name="Divine Protection",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Holy_Restoration",school="Protection"},
 		{id=21082,name="Seal of the Crusader",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Retribution"}
@@ -54,7 +53,7 @@ ClassSpellsByLevel["PALADIN"] = {
 		{id=7328,name="Redemption",subText="Rank 1",level=12,icon="Interface\\Icons\\Spell_Holy_Resurrection",school="Holy"},
 		{id=19834,name="Blessing of Might",subText="Rank 2",level=12,icon="Interface\\Icons\\Spell_Holy_FistOfJustice",school="Retribution",requiredIds={19740}},
 		{id=20162,name="Seal of the Crusader",subText="Rank 2",level=12,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Retribution",requiredIds={21082}},
-		{id=20188,name="Judgement of the Crusader",subText="Rank 2",level=12,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Retribution"},
+		{id=20188,name="Judgement of the Crusader",subText="Rank 2",level=12,icon="Interface\\Icons\\Spell_Holy_HolySmite",school="Retribution",requiredIds={21183}},
 		{id=678,name="Holy Strike",subText="Rank 2",level=12,icon="Interface\\Icons\\INV_Sword_01",school="Holy",requiredIds={679}}
 	},
 	[14] = {
@@ -111,6 +110,7 @@ ClassSpellsByLevel["PALADIN"] = {
 		{id=680,name="Holy Strike",subText="Rank 4",level=28,icon="Interface\\Icons\\INV_Sword_01",school="Holy",requiredIds={1866}}
 	},
 	[30] = {
+		{id=1042,name="Holy Light",subText="Rank 5",level=30,icon="Interface\\Icons\\Spell_Holy_HolyBolt",school="Holy",requiredIds={1026}},
 		{id=10291,name="Devotion Aura",subText="Rank 4",level=30,icon="Interface\\Icons\\Spell_Holy_DevotionAura",school="Protection",requiredIds={643}},
 		{id=2800,name="Lay on Hands",subText="Rank 2",level=30,icon="Interface\\Icons\\Spell_Holy_LayOnHands",school="Holy",requiredIds={633}},
 		{id=20165,name="Seal of Light",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Holy_HealingAura",school="Holy"},
@@ -139,7 +139,7 @@ ClassSpellsByLevel["PALADIN"] = {
 		{id=2495,name="Holy Strike",subText="Rank 5",level=36,icon="Interface\\Icons\\INV_Sword_01",school="Holy",requiredIds={680}}
 	},
 	[38] = {
-		{id=3472,name="Holy Light",subText="Rank 6",level=38,icon="Interface\\Icons\\Spell_Holy_HolyBolt",school="Holy",requiredIds={1026}},
+		{id=3472,name="Holy Light",subText="Rank 6",level=38,icon="Interface\\Icons\\Spell_Holy_HolyBolt",school="Holy",requiredIds={1042}},
 		{id=5627,name="Turn Undead",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Holy_TurnUndead",school="Holy",requiredIds={2878}},
 		{id=10278,name="Hand of Protection",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Holy_SealOfProtection",school="Protection",requiredIds={5599}},
 		{id=20357,name="Seal of Wisdom",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Holy_RighteousnessAura",school="Holy",requiredIds={20356}},

@@ -159,7 +159,7 @@ ClassSpellsByLevel["ROGUE"] = {
 	[38] = {
 		{id=8621,name="Sinister Strike",subText="Rank 6",level=38,icon="Interface\\Icons\\Spell_Shadow_RitualOfSacrifice",school="Combat",requiredIds={1760}},
 		{id=8633,name="Garrote",subText="Rank 4",level=38,icon="Interface\\Icons\\Ability_Rogue_Garrote",school="Assassination",requiredIds={8632}},
-		{id=8694,name="Mind-numbing Poison II",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_NullifyDisease",school="Poisons"}
+		{id=8694,name="Mind-numbing Poison II",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_NullifyDisease",school="Poisons",requiredIds={5763}}
 	},
 	[40] = {
 		{id=8624,name="Eviscerate",subText="Rank 6",level=40,icon="Interface\\Icons\\Ability_Rogue_Eviscerate",school="Assassination",requiredIds={8623}},
@@ -195,7 +195,7 @@ ClassSpellsByLevel["ROGUE"] = {
 	},
 	[52] = {
 		{id=11274,name="Rupture",subText="Rank 5",level=52,icon="Interface\\Icons\\Ability_Rogue_Rupture",school="Assassination",requiredIds={11273}},
-		{id=11400,name="Mind-numbing Poison III",subText="Rank 3",level=52,icon="Interface\\Icons\\Spell_Nature_NullifyDisease",school="Poisons"},
+		{id=11400,name="Mind-numbing Poison III",subText="Rank 3",level=52,icon="Interface\\Icons\\Spell_Nature_NullifyDisease",school="Poisons",requiredIds={8694}},
 		{id=11280,name="Backstab",subText="Rank 7",level=52,icon="Interface\\Icons\\Ability_BackStab",school="Combat",requiredIds={11279}},
 		{id=11303,name="Feint",subText="Rank 4",level=52,icon="Interface\\Icons\\Ability_Rogue_Feint",school="Combat",requiredIds={8637}}
 	},

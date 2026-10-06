@@ -19,13 +19,13 @@ ClassSpellsByLevel["SHAMAN"] = {
 	},
 	[6] = {
 		{id=2484,name="Earthbind Totem",subText="",level=6,icon="Interface\\Icons\\Spell_Nature_StrengthOfEarthTotem02",school="Elemental Combat"},
-		{id=332,name="Healing Wave",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={25357}}
+		{id=332,name="Healing Wave",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={331}}
 	},
 	[8] = {
 		{id=5730,name="Stoneclaw Totem",subText="Rank 1",level=8,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat"},
 		{id=8044,name="Earth Shock",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_EarthShock",school="Elemental Combat",requiredIds={8042}},
 		{id=324,name="Lightning Shield",subText="Rank 1",level=8,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement"},
-		{id=529,name="Lightning Bolt",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={15208}},
+		{id=529,name="Lightning Bolt",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={403}},
 		{id=8018,name="Rockbiter Weapon",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Nature_RockBiter",school="Enhancement",requiredIds={8017}}
 	},
 	[10] = {
@@ -219,7 +219,7 @@ ClassSpellsByLevel["SHAMAN"] = {
 		{id=10497,name="Mana Spring Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Nature_ManaRegenTotem",school="Restoration",requiredIds={10496}},
 		{id=10627,name="Grace of Air Totem",subText="Rank 2",level=56,icon="Interface\\Icons\\Spell_Nature_InvisibilityTotem",school="Enhancement",requiredIds={8835}},
 		{id=15112,name="Windwall Totem",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_EarthBind",school="Enhancement",requiredIds={15111}},
-		{id=15208,name="Lightning Bolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={403}},
+		{id=15208,name="Lightning Bolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={15207}},
 		{id=10605,name="Chain Lightning",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Nature_ChainLightning",school="Elemental Combat",requiredIds={2860}},
 		{id=10587,name="Magma Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Elemental Combat",requiredIds={10586}},
 		{id=16342,name="Flametongue Weapon",subText="Rank 6",level=56,icon="Interface\\Icons\\Spell_Fire_FlameTounge",school="Enhancement",requiredIds={16341}}
@@ -243,7 +243,7 @@ ClassSpellsByLevel["SHAMAN"] = {
 		{id=20777,name="Ancestral Spirit",subText="Rank 5",level=60,icon="Interface\\Icons\\Spell_Nature_Regenerate",school="Restoration",requiredIds={20776}},
 		{id=25359,name="Grace of Air Totem",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Nature_InvisibilityTotem",school="Enhancement",requiredIds={10627}},
 		{id=25361,name="Strength of Earth Totem",subText="Rank 5",level=60,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={10442}},
-		{id=25357,name="Healing Wave",subText="Rank 10",level=60,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={331}},
+		{id=25357,name="Healing Wave",subText="Rank 10",level=60,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={10396}},
 		{id=29228,name="Flame Shock",subText="Rank 6",level=60,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Elemental Combat",requiredIds={10448}},
 		{id=45514,name="Feral Spirit",subText="Rank 2",level=60,icon="Interface\\Icons\\Spell_Shaman_FeralSpirit",races={"ORC"},school="Enhancement",requiredIds={45505}},
 		{id=51526,name="Earth Shield",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Nature_SkinofEarth",school="Enhancement",requiredIds={51525}}
