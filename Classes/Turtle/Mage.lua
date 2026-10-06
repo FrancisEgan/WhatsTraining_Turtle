@@ -10,12 +10,12 @@ ClassSpellsByLevel["MAGE"] = {
 		{id=5504,name="Conjure Water",subText="Rank 1",level=4,icon="Interface\\Icons\\INV_Drink_06",school="Arcane"}
 	},
 	[6] = {
-		{id=143,name="Fireball",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Fire_FlameBolt",school="Fire",requiredIds={25306}},
+		{id=143,name="Fireball",subText="Rank 2",level=6,icon="Interface\\Icons\\Spell_Fire_FlameBolt",school="Fire",requiredIds={133}},
 		{id=2136,name="Fire Blast",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Fire_Fireball",school="Fire"},
 		{id=587,name="Conjure Food",subText="Rank 1",level=6,icon="Interface\\Icons\\INV_Misc_Food_10",school="Arcane"}
 	},
 	[8] = {
-		{id=205,name="Frostbolt",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Frost_FrostBolt02",school="Frost",requiredIds={25304}},
+		{id=205,name="Frostbolt",subText="Rank 2",level=8,icon="Interface\\Icons\\Spell_Frost_FrostBolt02",school="Frost",requiredIds={116}},
 		{id=5143,name="Arcane Missiles",subText="Rank 1",level=8,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Arcane"},
 		{id=118,name="Polymorph",subText="Rank 1",level=8,icon="Interface\\Icons\\Spell_Nature_Polymorph",school="Arcane"}
 	},
@@ -182,14 +182,14 @@ ClassSpellsByLevel["MAGE"] = {
 		{id=10145,name="Conjure Food",subText="Rank 6",level=52,icon="Interface\\Icons\\INV_Misc_Food_33",school="Arcane",requiredIds={10144}}
 	},
 	[54] = {
-		{id=10150,name="Fireball",subText="Rank 10",level=54,icon="Interface\\Icons\\Spell_Fire_FlameBolt",school="Fire",requiredIds={133}},
+		{id=10150,name="Fireball",subText="Rank 10",level=54,icon="Interface\\Icons\\Spell_Fire_FlameBolt",school="Fire",requiredIds={10149}},
 		{id=10199,name="Fire Blast",subText="Rank 7",level=54,icon="Interface\\Icons\\Spell_Fire_Fireball",school="Fire",requiredIds={10197}},
 		{id=10202,name="Arcane Explosion",subText="Rank 6",level=54,icon="Interface\\Icons\\Spell_Nature_WispSplode",school="Arcane",requiredIds={10201}},
 		{id=10230,name="Frost Nova",subText="Rank 4",level=54,icon="Interface\\Icons\\Spell_Frost_FrostNova",school="Frost",requiredIds={6131}}
 	},
 	[56] = {
 		{id=10157,name="Arcane Intellect",subText="Rank 5",level=56,icon="Interface\\Icons\\Spell_Holy_MagicalSentry",school="Arcane",requiredIds={10156}},
-		{id=10181,name="Frostbolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Frost_FrostBolt02",school="Frost",requiredIds={116}},
+		{id=10181,name="Frostbolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Frost_FrostBolt02",school="Frost",requiredIds={10180}},
 		{id=10212,name="Arcane Missiles",subText="Rank 7",level=56,icon="Interface\\Icons\\Spell_Nature_StarFall",school="Arcane",requiredIds={10211}},
 		{id=10216,name="Flamestrike",subText="Rank 6",level=56,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Fire",requiredIds={10215}},
 		{id=23028,name="Arcane Brilliance",subText="Rank 1",level=56,icon="Interface\\Icons\\Spell_Holy_ArcaneIntellect",school="Arcane"},
